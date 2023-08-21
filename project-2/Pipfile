@@ -4,8 +4,14 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+pandas = "*"
+decisiontreeclassifier = "*"
+sklearn = "*"
+sklearn3 = "*"
+scikit-learn = "*"
 
 [dev-packages]
+ipykernel = "*"
 
 [requires]
 python_version = "3.11"
