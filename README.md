@@ -29,23 +29,24 @@ Ini adalah project untuk belajar bareng dan pengingat untuk diri saya sendiri te
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
-Disini saya menggunakan `pipenv` untuk virtual environment dan menggunakan `python 3`.
+Disini saya menggunakan `venv` untuk virtual environment dan menggunakan `python 3`.
 
 ## 📟 List Command <a name="command"></a>
 
 Command pyton
 
 ```
-pyton <NAMA_FAIL>.py
-pyton3 <NAMA_FAIL>.py # jita
+pyton <NAMA_FILE>.py
+pyton3 <NAMA_FILE>.py # jita
 ```
 
-Command pipenv
+Command venv
 
 ```
-pipenv install
-pipenv install <NAMA_MOUDULE>
-pipenv shell
+python -m venv .venv
+source .venv/bin/activate
+deactivate
+pip freeze > requirements.txt
 ```
 
 ## ✍️ Authors <a name = "authors"></a>
@@ -59,3 +60,4 @@ See also the list of [contributors](https://github.com/Herdanis/Belajar-Python/g
 - [Python Documantation](https://www.python.org/doc/) - Official Documentation
 - [Python Tutorial - Python Full Course for Beginners ](https://www.youtube.com/watch?v=_uQrJ0TkZlc) - Programming with Mosh
 - [Python Tutorial](https://programminghub.io/coursedetail/programming/learn/Python/) - Programming Hub
+- [Object Oriented Programming (OOP) In Python - Beginner Crash Course]https://www.youtube.com/watch?v=-pEs-Bss8Wc
